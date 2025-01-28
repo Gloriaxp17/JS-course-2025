@@ -17,4 +17,4 @@ let totalCost = productsCost * productsAmount;
 alert(` Загальна вартість: ${totalCost}`);
 let percent = 5;
 let percentOfProduct = (totalCost * percent) / 100;
-alert(` ПДВ становить: ${percentOfProduct}`);
+alert(` ПДВ становить: ${percentOfProduct.toFixed(2)}`);
