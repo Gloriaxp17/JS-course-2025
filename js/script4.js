@@ -10,5 +10,5 @@
 let centimetres = Number(prompt(" введіть кількість сантиметрів"));
 let metres = centimetres / 100;
 let kilometres = centimetres / 100000;
-alert(`${metres} метрів`);
-alert(`${kilometres} кілометрів`);
+alert(`${metres.toFixed(2)} метрів`);
+alert(`${kilometres.toFixed(2)} кілометрів`);
