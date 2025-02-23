@@ -5,5 +5,5 @@ if (confirm(`Почати тестування?`)) {
         return `<a href="${link}"><img src="${image}" alt="${title}"></a>`;
     }
 
-    console.log(createBanner("images/banner.jpg", "Наш банер", "https://example.com"));
+   document.write(createBanner('<img src="../images/1.jpg" alt=" Image"/>, "Наш банер", "https://example.com"'));
 }
