@@ -17,5 +17,5 @@ if (confirm(`Почати тестування?`)) {
     }
 
 
-    document.write(`<img src="../images/${randomImage}.img" alt="Random Image"/>`);
+    document.write(`<img src="../images/${randomNumber}.img" alt="Random Image"/>`);
 }
