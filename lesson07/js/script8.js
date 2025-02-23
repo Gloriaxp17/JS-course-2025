@@ -1,7 +1,7 @@
 `use srtrict`
 
 if (confirm(`Почати тестування?`)) {
-    function getRandomImg(img1, img2, img3, img4) {
+   function getRandomImg(img1, img2, img3, img4) {
         const randomNumber = Math.floor(Math.random() * 4) + 1;
 
         switch (randomNumber) {
@@ -16,6 +16,9 @@ if (confirm(`Почати тестування?`)) {
         }
     }
 
+  
+    const randomImg = getRandomImg("../images/img1.jpg", "../images/img2.jpg", "../images/img3.jpg", "../images/img4.jpg");
 
-    document.write(`<img src="../images/${randomNumber}.img" alt="Random Image"/>`);
+   
+    document.write(`<img src="${randomImg}" alt="Random Image"/>`);
 }
