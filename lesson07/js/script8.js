@@ -17,5 +17,5 @@ if (confirm(`Почати тестування?`)) {
     }
 
 
-    console.log(getRandomImg("images/img1.jpg", "images/img2.jpg", "images/img3.jpg", "images/img4.jpg"));
+     document.write(createBanner('<img src="../images/1.jpg" alt=" Image"/>, "Наш банер", "https://example.com"'));
 }
